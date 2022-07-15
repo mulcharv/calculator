@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(yoko_hondaresized.png);
+}
+
+#container {
+    margin-top: 100px;
+    display: flex;
+    width: 370px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #02B7DD;
+    border-radius: 20px;
+    border-color: #E97DB1;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#displayContainer {
+    display: flex;
+    justify-content: flex-end;
+    height: 125px;
+    width: 300px;
+    font-size: 35px;
+    background-color: #E97DB1;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border-color: #443A84;
+    border-style: solid;
+    border-width: 6px;
+}
+
+#displayNum, #displayOp {
+    padding: 10px;
+}
+
+
+#buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 300px;
+    height: 400px;
+    padding-bottom: 30px;
+} 
+
+.buttons {
+    height: 65px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #443A84;
+    color: white;
+    font-size: large;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.buttons:hover, #clear:hover {
+    background-color: #E97DB1;
+}
+
+.buttons:active, #clear:active {
+    transform: translateY(2px)
+}
+
+
+#row1, #row2, #row3, #row4, #row5 {
+display: flex;
+justify-content: space-between;
+}
+
+
+
+#clear {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: #443A84;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: #443A84;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
